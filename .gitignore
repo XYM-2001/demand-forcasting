@@ -1,0 +1,77 @@
+/brazilian-ecommerce.zip
+# Data directories
+data/raw/
+models/saved_models/
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+logs/
+*.db
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Hadoop
+hadoop/
+
+# TensorFlow/Keras
+*.h5
+*.keras
+*.pb
+*.pbtxt
+checkpoint
+*.ckpt.*
+*.meta
